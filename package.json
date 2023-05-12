@@ -1,8 +1,7 @@
 {
-  "name": "@yannickdebree/jest-typescript-starter",
+  "name": "@ask-ell/jest-typescript-starter",
   "description": "Blank project with Typescript and Jest pre-configured",
   "version": "0.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "jest",
