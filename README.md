@@ -1,4 +1,4 @@
-# New project with Typescript and Jest installed
+# Blank project with Typescript and Jest pre-installed
 Add a description here.
 
 ## Development
