@@ -2,7 +2,7 @@ compose := docker compose
 run := $(compose) run --rm
 
 node_modules/time:
-	$(run) node yarn
+	$(run) -T node yarn
 	touch node_modules/time
 
 .PHONY: shell
