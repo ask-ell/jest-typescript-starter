@@ -9,8 +9,8 @@ Add a description here.
 - [Docker](https://www.docker.com/)
 - [Docker Compose V2](https://docs.docker.com/compose/)
 
-### Run the project
+### Run tests
 
 ```bash
-make serve
+make test
 ```

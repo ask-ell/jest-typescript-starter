@@ -1,5 +1,5 @@
 export default class Application {
-  run() {
-    return 0;
+  run(): number {
+    return 0
   }
 }
