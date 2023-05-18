@@ -11,11 +11,11 @@ shell:
 
 .PHONY: format
 format: node_modules/time
-	$(run) -v ~/.gitconfig:/home/node/.gitconfig node yarn format
+	$(run) -T -v ~/.gitconfig:/home/node/.gitconfig node yarn format
 
 .PHONY: lint
 lint: node_modules/time
-	$(run) node yarn lint
+	$(run) -T node yarn lint
 
 .PHONY: serve
 serve: node_modules/time
