@@ -25,6 +25,10 @@ serve: node_modules/time
 test: node_modules/time
 	$(run) node yarn test
 
+.PHONY: test-watch
+test-watch: node_modules/time
+	$(run) node yarn test:watch
+
 .PHONY: build
 build: node_modules/time
 	$(run) node yarn build

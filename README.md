@@ -9,8 +9,17 @@ Add a description here.
 - [Docker](https://www.docker.com/)
 - [Docker Compose V2](https://docs.docker.com/compose/)
 
-### Run tests
+### Commands
+
+#### Run tests
 
 ```bash
 make test
+```
+
+
+#### Run tests on "watch" mode
+
+```bash
+make test-watch
 ```
